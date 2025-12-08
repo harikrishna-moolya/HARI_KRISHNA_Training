@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Full Regression Suite" verbose="1" parallel="false">
+
+    <!-- Default parameters (overridden by Maven properties if supplied) -->
+    <parameter name="browser" value="chrome"/>
+    <parameter name="env" value="dev"/>
+
+    <test name="AllTests">
+        <classes>
+            <!-- Example test classes — update with your actual test class fully-qualified names -->
+            <class name="tests.LoginTest"/>
+            <class name="tests.SearchPage_Test"/>
+            <class name="tests.ContactPage_Test"/>
+            <class name="tests.YourOtherTest"/>
+        </classes>
+    </test>
+
+</suite>
