@@ -8,10 +8,10 @@
     <test name="AllTests">
         <classes>
             <!-- Example test classes — update with your actual test class fully-qualified names -->
-            <class name="tests.LoginTest"/>
-            <class name="tests.SearchPage_Test"/>
-            <class name="tests.ContactPage_Test"/>
-            <class name="tests.YourOtherTest"/>
+            <class name="Login_Test"/>
+            <class name="SearchPage_Test"/>
+            <class name="ContactPage_Test"/>
+           
         </classes>
     </test>
 
