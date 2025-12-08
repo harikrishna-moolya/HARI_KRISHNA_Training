@@ -8,9 +8,10 @@
     <test name="AllTests">
         <classes>
             <!-- Example test classes — update with your actual test class fully-qualified names -->
-            <class name="Login_Test"/>
-            <class name="SearchPage_Test"/>
-            <class name="ContactPage_Test"/>
+            <class name="test.ContactPage_Test.java"/>
+            <class name="test.Login_Test.java"/>
+            <class name="test.Registration__Test.java"/>
+            <class name="test.SearchPage_Test.java"/>
            
         </classes>
     </test>
