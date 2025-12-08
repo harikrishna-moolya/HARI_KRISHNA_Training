@@ -1,4 +1,4 @@
-package test;
+package TestCases;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,4 +17,5 @@ public class ContactPage_Test {
         cp.submitForm("Hari", "hk01@gmail.com", "Need information regarding products");
     }
 }
+
 
