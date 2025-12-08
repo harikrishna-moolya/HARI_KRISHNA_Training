@@ -2,7 +2,8 @@ package test;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.junit.Test;
+import org.testng.annotations.Test;
+
 import pages.SearchPage;
 
 public class SearchPage_Test {
@@ -17,3 +18,4 @@ public class SearchPage_Test {
         sp.search("iphone");
     }
 }
+
