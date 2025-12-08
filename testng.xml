@@ -5,14 +5,12 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="env" value="dev"/>
 
-    <test name="AllTests">
+   <test name="AllTests">
         <classes>
-            <!-- Example test classes — update with your actual test class fully-qualified names -->
-            <class name="test.ContactPage_Test.java"/>
-            <class name="test.Login_Test.java"/>
-            <class name="test.Registration__Test.java"/>
-            <class name="test.SearchPage_Test.java"/>
-           
+            <class name="TestCases.Login_Test"/>
+            <class name="TestCases.ContactPage_Test"/>
+            <class name="TestCases.Registration__Test"/>
+            <class name="TestCases.SearchPage_Test"/>
         </classes>
     </test>
 
