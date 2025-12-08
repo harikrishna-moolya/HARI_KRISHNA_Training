@@ -1,4 +1,4 @@
-package test;
+package TestCases;
 import pages.Login;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -29,4 +29,5 @@ public class Login_Test {
         lp.login("harik01.com", "1234");
     }
 }
+
 
